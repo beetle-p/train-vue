@@ -48,9 +48,9 @@
         div.style.backgroundColor = 'red'
         div.style.borderRadius = 10 + 'px'
         if (this.loginForm.answer === '') {
-          this.loginForm.answer += (e.clientX - 130) + "%2C" + (e.clientY - 270)
+          this.loginForm.answer += (e.clientX - 130) + "%2C" + (e.clientY - 230)
         } else {
-          this.loginForm.answer += "%2C" + (e.clientX - 130) + "%2C" + (e.clientY - 270)
+          this.loginForm.answer += "%2C" + (e.clientX - 130) + "%2C" + (e.clientY - 230)
         }
         document.getElementById("train-login-checkimg").appendChild(div)
       },
