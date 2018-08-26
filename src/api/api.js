@@ -3,7 +3,7 @@ import Qs from 'qs'
 
 axios.defaults.withCredentials = true
 
-let base = 'http://localhost:8082'
+let base = 'http://39.106.96.94:8084'
 
 var config = {
     transformRequest: [data => Qs.stringify(data)],
