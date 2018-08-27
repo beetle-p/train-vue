@@ -81,7 +81,7 @@
         this.loginForm.answer = ''
       },
       reloadCheckImg() {
-        document.getElementById("check-img").setAttribute('src', 'http://localhost:8082/getcheckimg?rand=' + Math.random(),)
+        document.getElementById("check-img").setAttribute('src', 'http://39.106.96.94:8084/getcheckimg?rand=' + Math.random(),)
         this.resetForm()
       }
     }
